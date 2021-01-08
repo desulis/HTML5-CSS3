@@ -1,0 +1,24 @@
+h1 {
+    color: red;
+    font-size: 3em;
+}
+figure {
+    text-align: center;
+}
+ul {
+    border-style: solid;
+    border-color: red;
+    border-radius: 2px;
+    border-collapse: collapse;
+    box-shadow: salmon 2px 2px 2px;
+}
+a {
+    color:green ;
+}
+a:hover {
+    text-decoration: underline;
+    color:red;
+}
+a:visited {
+    color: grey;
+}
