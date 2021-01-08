@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Alegreya-Black';
+    src: url('Alegreya-Black.otf') format(otf);
+}
+h1 {
+    font-family: 'Alegreya-Black', Arial, Helvetica, sans-serif;
+    color:violet;
+    font-size: 50px;
+    text-align: center;
+}
+body {
+    background-image: url("background.jpg");
+    background-attachment:fixed;
+    background-repeat:inherit;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: hotpink 3px 3px 3px;
+}
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+a:visited {
+    color: gray;
+}
+ul {
+    color:violet;
+    font-size: 30px;
+}
+li {
+    color: black;
+    font-size: 20px;
+}
+
