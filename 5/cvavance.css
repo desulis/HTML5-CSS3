@@ -1,0 +1,65 @@
+#bloc_page {
+    display: flex;   
+}
+body {
+    background-image: url('background.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3em;
+    color: darkviolet;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: deeppink;
+}
+section {
+    display: flex;
+    justify-content: space-around;
+}
+h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    color:fuchsia;
+}
+ul {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: orangered;
+}
+
+li a{
+    color:lightcoral;
+    border-bottom:lightcoral;
+}
+
+a:hover{
+    color:darkmagenta;
+}
+a:visited{
+    color: orangered;
+}
+#lisere {
+    width: 100px;
+}
+#contenu {
+    flex: 1;
+}
+#nom {
+    flex: 1;
+    text-align: center;
+}
+#photo {
+    border-color: black;
+    border-style: solid;
+    border-radius: 3px;
+    box-shadow:2px 2px 2px pink;
+}
